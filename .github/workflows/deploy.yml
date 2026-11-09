@@ -98,6 +98,8 @@ jobs:
           echo "Database count: $DB_COUNT"
           echo "Web API count: $WEB_COUNT"
           
+          echo "DB_COUNT=$DB_COUNT" >> $GITHUB_ENV
+          echo "WEB_COUNT=$WEB_COUNT" >> $GITHUB_ENV
           if [ "$DB_COUNT" = "$WEB_COUNT" ]; then
             echo "✅ Data consistency test passed"
           else
