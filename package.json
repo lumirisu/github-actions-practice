@@ -1,0 +1,13 @@
+{
+  "name": "fullstack-github-actions-app",
+  "version": "1.0.0",
+  "description": "Demo application for GitHub Actions CI/CD with Self-Hosted Runner",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}
